@@ -1,0 +1,21 @@
+function greet() {
+   console.log("Hello Welcome!");
+}
+
+greet();   
+
+
+function greet(name) {
+   console.log("Hello " + name);
+}
+
+greet("Rasmitha");
+
+
+
+function add(a, b) {
+   return a + b;
+}
+
+let result = add(5, 3);
+console.log(result);
