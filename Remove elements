@@ -1,0 +1,13 @@
+<ul id="list">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+
+<button onclick="removeItem()">Remove</button>
+
+<script>
+function removeItem() {
+  let list = document.getElementById("list");
+  list.removeChild(list.lastElementChild);
+}
+</script>
