@@ -1,0 +1,19 @@
+var num=(a,b ,op) =>{
+   if(op==="+") return a+b;
+   if(op==="-") return a-b;
+   if(op==="*") return a*b;
+   if(op==="/") return a/b;
+
+
+
+};
+var n1=Number(prompt("enter the number n1"));
+var n2=Number(prompt("enter the number n2"));
+var op=prompt("enter the op +,-,*,/");
+
+var result=num(n1,n2,op);
+document.write(result);
+
+
+    
+ 
