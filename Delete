@@ -1,0 +1,12 @@
+function addItem() {
+  let value = document.getElementById("item").value;
+
+  let li = document.createElement("li");
+  li.innerText = value;
+
+  li.onclick = function () {
+    li.remove();
+  };
+
+  document.getElementById("list").appendChild(li);
+}
