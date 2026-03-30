@@ -1,0 +1,14 @@
+<input type="text" id="username" placeholder="Enter name">
+<button onclick="validate()">Submit</button>
+<p id="error"></p>
+
+//js
+function validate() {
+  let user = document.getElementById("username").value;
+
+  if (user === "") {
+    document.getElementById("error").innerText = "Name required!";
+  } else {
+    document.getElementById("error").innerText = "Success!";
+  }
+}
