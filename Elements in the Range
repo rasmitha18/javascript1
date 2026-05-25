@@ -1,0 +1,16 @@
+class Solution {
+    checkElements(start, end, arr) {
+        // code here
+        let set =new Set(arr);
+        
+        for(let i=start;i<=end;i++) {
+            if(!set.has(i)) 
+                return false;
+            
+        }
+        
+    return true;
+
+    }
+    
+}
